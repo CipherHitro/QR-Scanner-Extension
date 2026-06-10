@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "QR Code Area Scanner",
+  "version": "1.0.0",
+  "description": "Select any visible area on a page, PDF, or web app to scan a QR code locally.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Scan QR code from selected area",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "jsqr.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}

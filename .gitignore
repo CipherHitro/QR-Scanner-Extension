@@ -1,0 +1,27 @@
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Generated packages and browser extension artifacts
+*.zip
+*.crx
+*.pem
+dist/
+build/
+release/
+releases/
+
+# Temporary files
+tmp/
+temp/
+.cache/
