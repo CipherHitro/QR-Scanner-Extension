@@ -79,16 +79,10 @@ QR scanning is performed locally in the browser. The selected screenshot area is
 - `clipboardWrite`: copy decoded QR text to the clipboard
 - `<all_urls>`: allow scanning on normal sites, web apps, images, and PDFs
 
-## Publish Package
-
-No build command is required. To prepare a Chrome Web Store upload, zip only the extension source files with `manifest.json` at the root:
-
-```bash
-zip -r qr-scanner-extension.zip manifest.json background.js content.js content.css jsqr.js icons
-```
-
-Upload the ZIP in the Chrome Web Store Developer Dashboard.
-
 ## License
 
-Open source. Add your preferred license file before publishing if you want to define exact reuse terms.
+Personal-use license.
+
+You may clone, inspect, modify, and use this project locally for personal or learning purposes. You may not republish, redistribute, sell, or submit this project to any browser extension store as your own work without permission.
+
+Created by Rohit.
